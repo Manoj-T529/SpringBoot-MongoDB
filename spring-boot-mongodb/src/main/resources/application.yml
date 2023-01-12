@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/Person
+#      authentication-database: admin
+#      username: root
+#      password: Password
+#      database: demo
+#      port: 27017
+#      host: localhost
+#      
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+      
+server.port: 9000
